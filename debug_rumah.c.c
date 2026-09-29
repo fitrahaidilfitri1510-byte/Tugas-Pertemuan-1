@@ -9,29 +9,16 @@ int main(void) {
 }
 
 /*
-================================================================================
-DAFTAR KESALAHAN DAN CARA MEMPERBAIKINYA:
-================================================================================
-1. Kurang titik koma (;) pada baris kedua printf.
-   - Kesalahan : printf("Topik: Pengantar Pemrograman C\n")
-   - Perbaikan : Menambahkan titik koma (;) di akhir baris:
-                 printf("Topik: Pengantar Pemrograman C\n");
+Daftar Kesalahan dan Cara Memperbaikinya:
+1. Baris 5: Kurang tanda titik koma (;) di akhir perintah printf("Topik: Pengantar Pemrograman C\n").
+   -> Perbaikan: Menambahkan tanda ';' di akhir baris.
 
-2. Penulisan fungsi printf menggunakan huruf kapital (PRINTF).
-   - Kesalahan : PRINTF("Semoga lancar!\n");
-   - Perbaikan : Bahasa C bersifat case-sensitive, ubah menjadi huruf kecil:
-                 printf("Semoga lancar!\n");
+2. Baris 6: Fungsi 'PRINTF' ditulis dengan huruf kapital (Bahasa C bersifat case-sensitive).
+   -> Perbaikan: Mengubah 'PRINTF' menjadi huruf kecil semua 'printf'.
 
-3. Penggunaan tanda petik tunggal (') untuk string pada baris keempat printf.
-   - Kesalahan : printf('Sampai jumpa\n');
-   - Perbaikan : Tanda petik tunggal (') digunakan untuk karakter tunggal (char).
-                 Untuk teks/string harus memakai tanda petik ganda ("):
-                 printf("Sampai jumpa\n");
+3. Baris 7: String 'Sampai jumpa\n' menggunakan tanda petik tunggal (').
+   -> Perbaikan: Mengubah tanda petik tunggal menjadi tanda petik ganda (").
 
-4. Karakter escape backslash (\) yang salah/terbalik menjadi forward slash (/) pada 'C\n'.
-   - Kesalahan : printf("Topik: Pengantar Pemrograman C/n");  (atau tidak ada \)
-                 *Catatan: Pada gambar tertulis "C\n", namun jika dianggap slash biasa 
-                 atau kesalahan escape character pada string, digunakan \n yang benar.
-   - Perbaikan : Memastikan menggunakan karakter newline '\n' dengan backslash.
-================================================================================
+4. Baris 8: Perintah 'return 0' tidak diakhiri dengan tanda titik koma (;).
+   -> Perbaikan: Menambahkan tanda ';' di akhir perintah menjadi 'return 0;'.
 */
